@@ -158,7 +158,7 @@ describe("PreviewCard", () => {
     expect(within(dialog).getByText("YAML Configuration Preview")).toBeInTheDocument();
     expect(
       within(dialog).getByText(
-        "Complete generated YAML configuration for your OpenTelemetry Java Agent."
+        "Declarative YAML configuration for your OpenTelemetry Java Agent."
       )
     ).toBeInTheDocument();
 
